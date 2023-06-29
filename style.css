@@ -8,6 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .header
 {
@@ -109,21 +110,3 @@ li
     margin-bottom: 10px;
 }
 
-@media (max-width: 789px) 
-{
-    .text
-    {
-    text-align: center;
-    }
-    .items
-    {
-    flex-direction: column;
-    }
-    .item{
-        text-align: center;
-    }
-    .item-header
-    {
-        margin-left: 32%;
-    }
-}
